@@ -9,7 +9,7 @@
 ## 👥 Tim Pengembang
 | NIM | Nama | Role | Kontribusi |
 |------|----------------|-------------------------------|----------------------------|
-| 312310120 | Dini Ramadani | Backend Developer | Frontend Developer | CodeIgniter, Database |
+| 312310120 | Dini Ramadani | Fullstack Developer | CodeIgniter4, Database, JQuery, Bootstrap |
 | 312310090 | Dian Fitriani | QA & Dokumentasi | Testing, Laporan |
 | 312310635 | Jakaria Firmansyah | Frontend Developer | UI/UX, Bootstrap |
 
