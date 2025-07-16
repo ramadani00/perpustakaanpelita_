@@ -5,20 +5,6 @@
 **Aplikasi Perpustakaan Berbasis Web**  
 *Proyek Ujian Akhir Semester Pemrograman Web 2 - Universitas Pelita Bangsa*
 
-## 📋 Tentang Proyek
-
-### Latar Belakang
-Perpustakaan Pelita menghadapi tantangan dalam:
-- Proses peminjaman manual
-- Akses informasi terbatas
-- Kesulitan pelacakan riwayat peminjaman
-
-### Solusi Digital
-Aplikasi ini menyediakan platform terintegrasi untuk:
-✅ Manajemen katalog buku digital  
-✅ Dashboard statistik real-time  
-✅ Portal literasi digital  
-
 
 ## 👥 Tim Pengembang
 | NIM | Nama | Role | Kontribusi |
