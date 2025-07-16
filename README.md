@@ -9,18 +9,16 @@
 
 ### Latar Belakang
 Perpustakaan Pelita menghadapi tantangan dalam:
-- Proses peminjaman manual (10-15 menit/transaksi)
-- 20% kesalahan pencatatan data
+- Proses peminjaman manual
 - Akses informasi terbatas
 - Kesulitan pelacakan riwayat peminjaman
 
 ### Solusi Digital
 Aplikasi ini menyediakan platform terintegrasi untuk:
 ✅ Manajemen katalog buku digital  
-✅ Sistem peminjaman online mandiri  
 ✅ Dashboard statistik real-time  
 ✅ Portal literasi digital  
-✅ Sistem keanggotaan terpusat  
+
 
 ## 👥 Tim Pengembang
 | NIM | Nama | Role | Kontribusi |
@@ -53,10 +51,8 @@ Agung Nugroho, S.Kom., M.Kom.
 - 🏢 Informasi perpustakaan
 
 ### 👨‍🎓 Untuk Anggota
-- 📥 Peminjaman online mandiri
-- ⏳ Riwayat transaksi lengkap
+- ⏳ Riwayat
 - 📊 Dashboard pribadi
-- 🔔 Notifikasi pengembalian
 
 ### 👨‍💼 Untuk Admin
 - 📖 Manajemen katalog buku (CRUD)
@@ -64,67 +60,3 @@ Agung Nugroho, S.Kom., M.Kom.
 - 📈 Statistik real-time
 - ✍️ Publikasi artikel
 - 📁 Laporan periodik
-
-## 🖥️ Mockup Desain
-![Homepage](docs/mockup-home.png)  
-*Lihat desain lengkap di [Figma](https://www.figma.com/design/tK3YWBE25Q4Ca2PIMs5wPy/PerpustakaanPelita)*
-
-## 🚀 Instalasi
-
-### Prasyarat
-- PHP 7.4+
-- Composer
-- MySQL 5.7+
-- Node.js (opsional untuk frontend)
-
-### Langkah-langkah
-1. Clone repository:
-   
-```bash
-   git clone https://github.com/diniramadani00/library.git
-   cd library
-```
-
-2. Install dependencies:
-
-    
-```bash
-composer install
-```
-
-3. Setup database:
-
-```bash
-mysql -u username -p library < database.sql
-```
-
-4. Konfigurasi koneksi di:
-
-```php
-app/Config/Database.php
-```
-
-5. Jalankan aplikasi:
-
-```bash
-php spark serve
-```
-
-6. Akses di browser:
-
-```text
-http://localhost:8080
-```
-
-📂 Struktur Projek
-text
-library/
-├── app/
-│   ├── Config/       # Konfigurasi sistem
-│   ├── Controllers/  # Logic aplikasi
-│   ├── Models/       # Database models
-│   └── Views/        # Template halaman
-├── public/           # Assets publik
-├── database/         # Skema & migrasi
-└── tests/            # Unit testing
-
